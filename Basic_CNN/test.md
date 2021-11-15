@@ -56,7 +56,7 @@ MONAI에 대한 모든 주목할만한 변경 사항은 이 파일에 문서화�
 * Clara Train [Medical Model ARchives(MMAR)](https://docs.nvidia.com/clara/clara-train-sdk/pt/mmar.html)에서 네트워크 및 사전 훈련된 가중치를 로드하는 API
 * 기본 메트릭 및 누적 메트릭 API, 4개의 새로운 회귀 메트릭
 * 초기 CSV 데이터 세트 지원
-* 기본 첫 번째 후처리 단계로 미니 배치 데콜레이트, [v0.5 코드를 v0.6으로 마이그레이션](https://github.com/Project-MONAI/MONAI/wiki/v0.5-to-v0.6) -migration-guide) wiki는 주요 변경 사항에 적응하는 방법을 보여줍니다.
+* 기본 첫 번째 후처리 단계로 미니 배치 데콜레이트, [v0.5 코드를 v0.6으로 마이그레이션](https://github.com/Project-MONAI/MONAI/wiki/v0.5-to-v0.6-migration-guide) wiki는 주요 변경 사항에 적응하는 방법을 보여줍니다.
 * `monai.utils.deprecated`를 통한 초기 역호환성 지원
 * 주의 기반 비전 모듈 및 세분화를 위한 'UNETR'
 * PyTorch JIT 컴파일을 사용하는 일반 모듈 로더 및 가우스 혼합 모델
@@ -286,7 +286,7 @@ MONAI에 대한 모든 주목할만한 변경 사항은 이 파일에 문서화�
 
 ## [0.3.0] - 2020-10-02
 ### 추가됨
-* 개요 문서 [v0.3.0의 기능 하이라이트](https://github.com/Project-MONAI/MONAI/blob/master/docs/source/highlights.md)
+* 개요 문서 [v0.3.0의 기능 주요 기능](https://github.com/Project-MONAI/MONAI/blob/master/docs/source/highlights.md)
 * 자동 혼합 정밀도 지원
 * 다중 노드, 다중 GPU 데이터 병렬 모델 교육 지원
 * 3개의 새로운 평가 메트릭 기능
@@ -334,7 +334,7 @@ MONAI에 대한 모든 주목할만한 변경 사항은 이 파일에 문서화�
 
 ## [0.2.0] - 2020-07-02
 ### 추가됨
-* 개요 문서 [v0.2.0의 기능 하이라이트](https://github.com/Project-MONAI/MONAI/blob/master/docs/source/highlights.md)
+* 개요 문서 [v0.2.0의 기능 주요 기능](https://github.com/Project-MONAI/MONAI/blob/master/docs/source/highlights.md)
 * 유형 힌트 및 정적 유형 분석 지원
 * `MONAI/research` 폴더
 * 지도 교육을 위한 `monai.engine.workflow` API
@@ -372,7 +372,7 @@ MONAI에 대한 모든 주목할만한 변경 사항은 이 파일에 문서화�
 
 ## [0.1.0] - 2020-04-17
 ### 추가됨
-* Apache 2.0 라이선스에 따른 공개 알파 소스 코드 릴리스([하이라이트](https://github.com/Project-MONAI/MONAI/blob/0.1.0/docs/source/highlights.md))
+* Apache 2.0 라이선스에 따른 공개 알파 소스 코드 릴리스([주요 기능](https://github.com/Project-MONAI/MONAI/blob/0.1.0/docs/source/highlights.md))
 * 다양한 튜토리얼 및 예제
   - 의료 이미지 분류 및 세분화 워크플로
   - CPU/GPU 및 캐싱을 통한 간격/방향 인식 전처리
@@ -384,7 +384,7 @@ MONAI에 대한 모든 주목할만한 변경 사항은 이 파일에 문서화�
 * 기여 지침
 * 프로젝트 로고 및 배지
 
-[하이라이트]: https://github.com/Project-MONAI/MONAI/blob/master/docs/source/highlights.md
+[주요 기능]: https://github.com/Project-MONAI/MONAI/blob/master/docs/source/highlights.md
 
 [미공개]: https://github.com/Project-MONAI/MONAI/compare/0.7.0...HEAD
 [0.7.0]: https://github.com/Project-MONAI/MONAI/compare/0.6.0...0.7.0
